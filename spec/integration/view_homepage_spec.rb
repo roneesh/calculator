@@ -14,3 +14,4 @@ feature 'Visiting the homepage' do
 
 end
 
+
