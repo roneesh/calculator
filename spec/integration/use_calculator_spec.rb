@@ -26,7 +26,7 @@ feature 'Using the calculator' do
     visit root_path
     keyboard = [ (0..9), "+", ".", "x", "-", "/", "=", "C", "AC"]
     keyboard.each do |key|
-      expect(page).to have_css "ul.keyboard a" 
+      expect(page).to have_css "ul.keyboard a[data-remote=true]" 
     end
   end
 
